@@ -1,4 +1,6 @@
-package de.jensknipper.rps
+package de.jensknipper.rps.logic
+
+import de.jensknipper.rps.logic.result.GameResultCalculator
 
 class Match(private val player1: Player, private val player2: Player) {
     fun execute() {

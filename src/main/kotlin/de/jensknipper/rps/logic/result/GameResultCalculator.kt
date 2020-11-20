@@ -1,4 +1,6 @@
-package de.jensknipper.rps
+package de.jensknipper.rps.logic.result
+
+import de.jensknipper.rps.logic.Weapon
 
 class GameResultCalculator(private val weapon1: Weapon, private val weapon2: Weapon) {
 

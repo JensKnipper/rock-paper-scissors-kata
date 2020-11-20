@@ -1,6 +1,9 @@
-package de.jensknipper.rps
+package de.jensknipper.rps.logic
 
-import de.jensknipper.rps.strategy.StaticStrategy
+import de.jensknipper.rps.logic.result.GameResult
+import de.jensknipper.rps.logic.Player
+import de.jensknipper.rps.logic.strategy.StaticStrategy
+import de.jensknipper.rps.logic.Weapon
 import org.junit.jupiter.api.Test
 
 internal class PlayerTest {

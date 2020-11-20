@@ -1,4 +1,4 @@
-package de.jensknipper.rps
+package de.jensknipper.rps.logic
 
 import java.lang.IllegalArgumentException
 

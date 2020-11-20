@@ -1,4 +1,4 @@
-package de.jensknipper.rps
+package de.jensknipper.rps.logic
 
 import org.junit.jupiter.api.Test
 

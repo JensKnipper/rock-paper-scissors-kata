@@ -1,6 +1,6 @@
-package de.jensknipper.rps.strategy
+package de.jensknipper.rps.logic.strategy
 
-import de.jensknipper.rps.Weapon
+import de.jensknipper.rps.logic.Weapon
 
 class StaticStrategy(private val staticWeapon: Weapon) : Strategy {
     override fun getWeapon(): Weapon {

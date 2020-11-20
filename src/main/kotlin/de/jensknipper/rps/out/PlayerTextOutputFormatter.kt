@@ -1,6 +1,6 @@
 package de.jensknipper.rps.out
 
-import de.jensknipper.rps.Player
+import de.jensknipper.rps.logic.Player
 
 class PlayerTextOutputFormatter(private val player: Player) {
     fun format(): String {

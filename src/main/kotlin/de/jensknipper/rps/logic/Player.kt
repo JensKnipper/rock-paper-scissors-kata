@@ -1,6 +1,7 @@
-package de.jensknipper.rps
+package de.jensknipper.rps.logic
 
-import de.jensknipper.rps.strategy.Strategy
+import de.jensknipper.rps.logic.result.GameResult
+import de.jensknipper.rps.logic.strategy.Strategy
 
 data class Player(val strategy: Strategy) {
     var wins = 0

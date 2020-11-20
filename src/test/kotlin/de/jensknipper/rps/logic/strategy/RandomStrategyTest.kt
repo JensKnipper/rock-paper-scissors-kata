@@ -1,6 +1,6 @@
-package de.jensknipper.rps.strategy
+package de.jensknipper.rps.logic.strategy
 
-import de.jensknipper.rps.Weapon
+import de.jensknipper.rps.logic.Weapon
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*
@@ -44,13 +44,13 @@ internal class RandomStrategyTest {
     }
 
     @Test
-    fun `third random weapon should be first weapon in weapon lis1t`() {
+    fun `too long random should throw exception`() {
         // given
         val strategy = RandomStrategy(3, 4)
 
         // when + then
         assertThrows(ArrayIndexOutOfBoundsException::class.java) {
-            val weapon = strategy.getWeapon()
+            strategy.getWeapon()
         }
     }
 }

@@ -1,8 +1,11 @@
-package de.jensknipper.rps
+package de.jensknipper.rps.run
 
+import de.jensknipper.rps.logic.Match
+import de.jensknipper.rps.logic.Player
+import de.jensknipper.rps.logic.Weapon
 import de.jensknipper.rps.out.PlayerTextOutputFormatter
-import de.jensknipper.rps.strategy.RandomStrategy
-import de.jensknipper.rps.strategy.StaticStrategy
+import de.jensknipper.rps.logic.strategy.RandomStrategy
+import de.jensknipper.rps.logic.strategy.StaticStrategy
 
 fun main() {
     val player1 = Player(RandomStrategy())

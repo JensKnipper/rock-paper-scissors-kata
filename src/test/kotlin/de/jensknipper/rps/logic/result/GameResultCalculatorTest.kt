@@ -1,8 +1,9 @@
-package de.jensknipper.rps
+package de.jensknipper.rps.logic.result
 
+import de.jensknipper.rps.logic.result.GameResult
+import de.jensknipper.rps.logic.result.GameResultCalculator
+import de.jensknipper.rps.logic.Weapon
 import org.junit.jupiter.api.Test
-
-import org.junit.jupiter.api.Assertions.*
 
 internal class GameResultCalculatorTest {
 
