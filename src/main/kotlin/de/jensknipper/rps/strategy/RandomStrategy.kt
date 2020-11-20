@@ -8,4 +8,8 @@ class RandomStrategy(private val from: Int = 0, private val until: Int = Weapon.
         val position = Random.nextInt(from, until)
         return Weapon.all[position]
     }
+
+    override fun toString(): String {
+        return "Random"
+    }
 }

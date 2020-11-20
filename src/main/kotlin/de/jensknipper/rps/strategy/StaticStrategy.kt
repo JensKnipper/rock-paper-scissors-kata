@@ -6,4 +6,8 @@ class StaticStrategy(private val staticWeapon: Weapon) : Strategy {
     override fun getWeapon(): Weapon {
         return staticWeapon
     }
+
+    override fun toString(): String {
+        return "Static: ${staticWeapon.name}"
+    }
 }
