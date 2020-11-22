@@ -3,7 +3,6 @@ package de.jensknipper.rps.run
 import de.jensknipper.rps.logic.Match
 import de.jensknipper.rps.logic.Player
 import de.jensknipper.rps.logic.Weapon
-import de.jensknipper.rps.out.PlayerTextOutputFormatter
 import de.jensknipper.rps.logic.strategy.RandomStrategy
 import de.jensknipper.rps.logic.strategy.StaticStrategy
 
@@ -17,6 +16,6 @@ fun main() {
         match.execute()
     }
 
-    println(PlayerTextOutputFormatter(player1).format())
-    println(PlayerTextOutputFormatter(player2).format())
+    println(player1)
+    println(player2)
 }

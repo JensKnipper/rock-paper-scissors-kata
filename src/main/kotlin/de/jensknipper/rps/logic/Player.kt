@@ -26,4 +26,13 @@ data class Player(val strategy: Strategy) {
     fun getWeapon(): Weapon {
         return strategy.getWeapon()
     }
+
+    override fun toString(): String {
+        return """
+            Strategy:   ${strategy}
+            wins:       ${wins}
+            ties:       ${ties}
+            losses:     ${losses}
+        """.trimIndent()
+    }
 }
